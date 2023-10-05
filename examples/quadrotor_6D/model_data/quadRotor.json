@@ -1,0 +1,133 @@
+{
+    "eps": 0.01,
+    "verbose": 0,
+    "verboseMultiHorizon": 1,
+    "verboseEssential": 0,
+    "scoreFunction": "worstLowerBound",
+    "virtualBranching": true,
+    "numberOfVirtualBranches": 8,
+    "maxSearchDepthLipschitzBound": 10,
+    "normToUseLipschitz": 2,
+    "useTwoNormDilation": false,
+    "useSdpForLipschitzCalculation": true,
+    "lipschitzSdpSolverVerbose": false,
+    "finalHorizon": 3,
+    "initialGD": false,
+    "performMultiStepSingleHorizon": false,
+    "plotProjectionsOfHigherDims": true,
+    "onlyPcaDirections": true,
+    "fullLoop": false,
+    "spaceOutThreshold": 40000,
+    "nodeBranchingFactor": 2,
+    "branchNodeNum": 512,
+    "pgdIterNum": 0,
+    "pgdNumberOfInitializations": 1,
+    "pgdStepSize": 0.5,
+    "A": [
+        [
+            1.0,
+            0.0,
+            0.0,
+            0.10000000149011612,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.10000000149011612,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.10000000149011612
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "B": [
+        [
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.9800000190734863,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            -0.9800000190734863,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.10000000149011612
+        ]
+    ],
+    "c": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.9800000190734863
+    ],
+    "lowerCoordinate": [
+        4.69000057220459,
+        4.65000057220459,
+        2.9750000953674316,
+        0.9499999976158142,
+        -0.00010000000474974513,
+        -0.00010000000474974513
+    ],
+    "upperCoordinate": [
+        4.710000038146973,
+        4.750000038146973,
+        3.0259999046325684,
+        0.9501099988079071,
+        0.00010000000474974513,
+        0.00010000000474974513
+    ],
+    "pathToStateDictionary": "Networks/quadRotorNormalV3.0.pth"
+}

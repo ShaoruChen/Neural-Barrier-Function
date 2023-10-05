@@ -1,0 +1,56 @@
+{
+    "eps": 0.001,
+    "verbose": 0,
+    "verboseMultiHorizon": 1,
+    "verboseEssential": 0,
+    "scoreFunction": "worstLowerBound",
+    "virtualBranching": false,
+    "numberOfVirtualBranches": 4,
+    "maxSearchDepthLipschitzBound": 10,
+    "normToUseLipschitz": 2,
+    "useTwoNormDilation": false,
+    "useSdpForLipschitzCalculation": true,
+    "lipschitzSdpSolverVerbose": false,
+    "finalHorizon": 5,
+    "initialGD": false,
+    "performMultiStepSingleHorizon": false,
+    "plotProjectionsOfHigherDims": true,
+    "onlyPcaDirections": true,
+    "fullLoop": false,
+    "spaceOutThreshold": 40000,
+    "nodeBranchingFactor": 2,
+    "branchNodeNum": 512,
+    "pgdIterNum": 0,
+    "pgdNumberOfInitializations": 1,
+    "pgdStepSize": 0.5,
+    "A": [
+        [
+            1.0,
+            1.0
+        ],
+        [
+            0.0,
+            1.0
+        ]
+    ],
+    "B": [
+        [
+            0.5
+        ],
+        [
+            1.0
+        ]
+    ],
+    "c": [
+        0.0
+    ],
+    "lowerCoordinate": [
+        2.5,
+        -0.25
+    ],
+    "upperCoordinate": [
+        3.0,
+        0.25
+    ],
+    "pathToStateDictionary": "Networks/doubleIntegratorCorrect.pth"
+}
